@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     if b < least_b
       least_a
     end
-    name_hash
   end
+  name_hash
 end
