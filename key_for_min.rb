@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   a = nil 
   b = nil 
   name_hash.select do |a,b|
+    a
     end
   end
-
 end
