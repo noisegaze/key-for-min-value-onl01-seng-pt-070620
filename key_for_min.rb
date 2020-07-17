@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
   a = nil 
   b = nil 
   name_hash.select do |a,b|
-    a
+    if b.least?
+      a
   end
 end
