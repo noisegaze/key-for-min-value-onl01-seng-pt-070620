@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
   b = nil 
   name_hash.select do |a,b|
     a
-    end
   end
 end
